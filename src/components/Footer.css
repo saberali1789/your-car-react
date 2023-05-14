@@ -1,0 +1,60 @@
+.footer-section {
+  height: 40vh;
+  justify-items: end;
+  padding: 4.6rem 0;
+}
+
+.titles-footer {
+  padding: 2.4rem;
+}
+
+.text-footer {
+  font-size: 1.8rem;
+  color: #12273d;
+  padding: 0 8.6rem;
+}
+
+.your-car {
+  font-family: "Nunito Sans";
+  padding-left: 5.4rem;
+  text-align: justify;
+  font-size: 3.4rem;
+}
+
+.news {
+  text-align: center;
+  padding-bottom: 1.8rem;
+}
+
+.info-footer input {
+  padding: 1.4rem 3.6rem;
+  border: solid 1px #741906;
+  margin-right: 2.2rem;
+  font-size: 18px;
+}
+
+.btn-footer {
+  border: none;
+  background-color: #741906;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 14px 35px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-weight: 500;
+}
+
+.end-footer {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 2px solid #741906;
+  width: 80%;
+  padding: 2.4rem;
+  margin: 3.6rem auto;
+}

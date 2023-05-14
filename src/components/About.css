@@ -1,0 +1,34 @@
+.about-section{
+  height: 100vh;
+  background: #E5E5E5;
+
+}
+
+.about-text {
+  position: relative;
+}
+
+.about-title {
+  color: #741906;
+  font-size: 5.6rem;
+  font-weight: 600;
+  font-family: "lora";
+  position: absolute;
+  top: 150px;
+  left: 13px;
+}
+
+.about-description {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.about-img{
+  justify-self: end;
+  align-self: center;
+  padding: 5.4rem 0;
+  height: 80%;
+}
+
+
+

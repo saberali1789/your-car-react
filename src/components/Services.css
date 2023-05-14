@@ -1,0 +1,55 @@
+.section-services {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 9, 26, 0.214) 32.41%,
+      rgba(0, 0, 0, 0.214) 65.08%
+    ),
+    url(../components/img/CTABG.png);
+  background-size: cover;
+  margin-top: 5rem;
+}
+
+.services-titles {
+  text-align: center;
+  position: relative;
+}
+
+.services-title {
+  color: #12273d;
+  font-size: 5.2rem;
+  font-weight: 700;
+  font-family: "lora";
+  letter-spacing: 3px;
+  position: absolute;
+  top: 185px;
+  left: 833px;
+}
+
+.services-body{
+  gap: 6.4rem;
+}
+
+.services-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 3.6rem;
+}
+
+.servises-sub{
+font-weight: 700;
+font-size: 3.2rem;
+color: #12273d;
+}
+
+.services-description{
+color: #12273d;
+font-size: 2.2rem;
+
+
+}
+
+

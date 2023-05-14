@@ -1,0 +1,73 @@
+.test-section {
+  background: #12273d;
+  height: 100vh;
+  position: relative;
+}
+
+.test-titles {
+  position: relative;
+  text-align: center;
+}
+
+.test-blur {
+  color: #ebebeb13;
+}
+
+.test-title {
+  color: #fff;
+  font-size: 5.2rem;
+  font-weight: 700;
+  font-family: "lora";
+  letter-spacing: 3px;
+  position: absolute;
+  top: 185px;
+  left: 550px;
+}
+
+.test-box {
+  width: 65%;
+  margin: 0 auto 6.6rem;
+  color: #12273d;
+  background-color: #fff;
+}
+
+.test-text {
+  font-size: 2.6rem;
+  color: #272727;
+  font-family: "lato";
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  padding: 7.6rem 10.12rem 3.6rem;
+}
+
+.stars {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 4.2rem;
+}
+
+.reviewer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.reviewer-name {
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+.reviewer-city {
+  font-size: 2.8rem;
+  font-style: italic;
+  color: #979797;
+}
+
+.car-test {
+  position: absolute;
+  bottom: 90px;
+  right: 102px;
+}

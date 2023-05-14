@@ -1,0 +1,99 @@
+.cars-section{
+  /* height: 100vh; */
+  background: #E5E5E5;
+}
+
+.car-blur{
+  color: #cbcbcb9b;
+}
+
+.cars-titles{
+  position: relative;
+  text-align: center;
+}
+
+.cars-title {
+  color: #741906;
+  font-size: 5.6rem;
+  font-weight: 600;
+  font-family: "lora";
+  position: absolute;
+  top: 185px;
+  left: 880px;
+}
+
+.cards-box {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.cars-card {
+  width: 38rem;
+  height: 52rem;
+  padding: 2.4rem;
+  background-color: #fff;
+
+}
+
+
+
+.cars-card img {
+  padding-bottom: 2.4rem;
+  width: 100%;
+}
+
+.car-kind {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 1.4rem;color: ;
+
+}
+
+.car-info {
+  font-size: 1.2rem;
+  padding-bottom: 3.8rem;
+  font-weight: 500;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.seats{
+font-size: 1.4rem;
+color: #741906;
+font-weight: 500;
+}
+
+.tow-btns{
+  padding: 0 1.4rem;
+  color: #fff;
+  background-color: #741906;
+  border: none;
+  font-size: 2.4rem;
+
+}
+
+
+.decrease{
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px; 
+}
+
+.increase {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btns p {
+  font-size: 2.8rem;
+}
