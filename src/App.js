@@ -6,6 +6,7 @@ import Gallary from "./components/Gallary";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Logos from "./components/Logos";
+import DataCars from "./API/DataCars";
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <HeroSectio />
       <About />
       <Services />
-      <Cars/>
+      <Cars carsData={DataCars}/>
       <Gallary />
       <Testimonial/>
       <Logos/>
       <Footer/>
+
 
     </div>
   );
