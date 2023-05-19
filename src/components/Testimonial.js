@@ -1,34 +1,50 @@
-import React from "react";
-import "./Testimonial.css";
-import car4 from "../components/img/car4.png";
+import React from 'react';
+import './Testimonial.css'
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import car4 from '../components/img/car4.png'
 
-const Testimonial = () => {
+const Testimonial = ({ testimonials }) => {
+
   return (
-    <div>
-      <section className="test-section">
-        <div className="test-titles">
-          <h1 className="blur test-blur">TESTIMONIALS</h1>
-          <h2 className="test-title">Testimonial</h2>
+        <main className="test-section ">
+      <div className="test-titles">
+        <h1 className="blur test-blur">TESTIMONIALS</h1>
+        <h2 className="test-title">Testimonial</h2>
+      </div>
+    <Carousel
+      showThumbs={false}
+      infiniteLoop={true}
+      autoPlay={true}
+      interval={5000}
+      showStatus={false}
+      dynamicHeight={false}
+    >
+      {testimonials.map((testimonial, index) => (
+        <>
+        <div key={index}>
+          <h3>{testimonial.name}</h3>
+          <p>{testimonial.description}</p>
+          <div className="test-box">
+            <p className="test-text">{testimonial.description}</p>
+            <div className="stars">⭐⭐⭐⭐⭐</div>
+            <div className="reviewer-box">
+              <p className="reviewer-name">{testimonial.name}</p>
+            </div>
+            
+           
+          </div> 
+          
         </div>
-        <div className="test-box">
-          <p className="test-text">
-            I recently bought a car through YourCar and I was blown away by
-            their exceptional service. The staff were friendly and
-            knowledgeable, and they helped me find the perfect car for my needs.
-            I highly recommend YourCar to anyone looking for a luxury car buying
-            experience.
-          </p>
-          <div className="stars">⭐⭐⭐⭐⭐</div>
-          <div className="reviewer-box">
-            <p className="reviewer-name">Annie Rudy</p>
-            <p className="reviewer-city">Las vegas</p>
-          </div>
-          <div></div>
-          <img className="car-test" src={car4} alt="--" />
-        </div>
-      </section>
-    </div>
+        </>
+      ))}
+    </Carousel>
+<img className="car-test" src={car4} alt="--" />
+    </main>
+   
   );
 };
+  
+
 
 export default Testimonial;

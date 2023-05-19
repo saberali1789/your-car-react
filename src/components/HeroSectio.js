@@ -1,25 +1,13 @@
 import React from "react";
-
 import './HeroSection.css'
+
 
 
 const HeroSectio = () => {
   return (
     <div className="hero-container ">
     <div className="container">
-      <navbar>
-        <div>
-          <h2 className="logo">YourCar</h2>
-        </div>
-        <div className="links">
-          <button>Home</button>
-          <button>About</button>
-          <button>Services</button>
-          <button>Cars</button>
-          <button>Connact us</button>
-          <button>Home</button>
-        </div>
-      </navbar>
+      
       <div className="hero-text grid-2">
       <div></div>
       <div className="hero-sub-text">

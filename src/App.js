@@ -7,6 +7,7 @@ import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Logos from "./components/Logos";
 import DataCars from "./API/DataCars";
+import testimonials from "./API/TestData";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Services />
       <Cars carsData={DataCars}/>
       <Gallary />
-      <Testimonial/>
+      <Testimonial testimonials={testimonials}/>
       <Logos/>
       <Footer/>
 

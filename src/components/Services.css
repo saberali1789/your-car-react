@@ -22,8 +22,8 @@
   font-family: "lora";
   letter-spacing: 3px;
   position: absolute;
-  top: 185px;
-  left: 833px;
+  top: 144px;
+    left: 730px;
 }
 
 .services-body{
@@ -53,3 +53,34 @@ font-size: 2.2rem;
 }
 
 
+@media only screen and (max-width: 768px) {
+  .section-services {
+    height: auto;
+    padding: 6rem 0;
+  }
+
+  .services-title {
+    font-size: 3.6rem;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .services-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .services-content {
+    gap: 2.4rem;
+  }
+
+  .servises-sub {
+    font-size: 2.4rem;
+  }
+
+  .services-description {
+    font-size: 1.8rem;
+  }
+}
