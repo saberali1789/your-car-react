@@ -83,4 +83,12 @@ font-size: 2.2rem;
   .services-description {
     font-size: 1.8rem;
   }
+  .section-services {
+    height: auto;
+    padding: 0rem 0;
+}
+.services-title {
+  font-size: 4.6rem;
+  top: 169px;
+}
 }

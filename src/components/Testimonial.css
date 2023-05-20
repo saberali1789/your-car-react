@@ -143,4 +143,14 @@ height: 100vh;
     margin-top: 3.6rem;
     width: 100%;
   }
+  .test-section {
+    height: auto;
+    padding: 0rem 0;
+}
+.test-title {
+  font-size: 4.6rem;
+  top: 175px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 }

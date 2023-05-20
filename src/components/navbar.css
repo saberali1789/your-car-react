@@ -5,7 +5,7 @@
   padding-bottom: 2rem;
  position: fixed;
   top: 0;
-  width: 100%;
+  width: 90%;
   background:linear-gradient(
       90deg,
       rgba(0, 9, 26, 0.45) 32.41%,
@@ -16,6 +16,7 @@
 .icon{
   color: #fff;
   font-size: 4rem;
+  display: none;
 }
 .logo {
   color: #fff;
@@ -52,6 +53,7 @@
 
 
 @media only screen and (max-width: 958px) {
+
   .links{
     display: none;
   }
@@ -65,6 +67,9 @@
     right: auto;
     left: auto;
     background-color: rgba(8, 48, 85, 0.295);
+  }
+  .icon{
+    display: block;
   }
 }
 @media only screen and (max-width: 768px) {

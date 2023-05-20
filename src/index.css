@@ -5,8 +5,9 @@
 }
 
 #root {
-  width: 100%;
+  width: 90%;
   margin: auto;
+  overflow: hidden;
 }
 /* .App{
   width: 80%;
@@ -50,7 +51,9 @@ html {
 
   
 @media only screen and (max-width: 600px) {
- 
+  .grid-2{
+    grid-template-columns: 1fr;
+  }
 }
 
 

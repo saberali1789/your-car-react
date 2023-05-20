@@ -33,3 +33,19 @@ font-family: sans-serif;
 font-weight: 500;
 padding: 5px 35px;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+.gallary-section {
+  height: 89vh;
+  background-size: 305%;
+}
+.text-gallary {
+  height: 249px;
+  background-color: #66666687;
+  color: #fff;
+  text-align: center;
+  width: 450px;
+}
+}

@@ -178,4 +178,12 @@ background-color: #741906;
     height: 200px;
     margin-bottom: 1.2rem;
   }
+  .car-blur {
+    font-size: 14rem;
+    color: #cbcbcb9b;
+}
+.cars-title {
+  font-size: 7.6rem;
+  top: 164px;
+}
 }

@@ -12,7 +12,7 @@ import {
 import Navbar from "./Navbar";
 import Carousel from "react-bootstrap/Carousel";
 
-const dataFromLocStorage = JSON.parse(localStorage.getItem("list")) || "[]";
+const dataFromLocStorage = JSON.parse(localStorage.getItem("list")) || [];
 
 const Cars = ({ carsData }) => {
   const cardRef = useRef();
