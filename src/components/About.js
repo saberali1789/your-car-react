@@ -4,7 +4,7 @@ import about from '../components/img/about.png'
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className="container grid-2 about-s">
         <div className="about-text">
           <h1 className="blur">ABOUT US</h1>

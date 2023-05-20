@@ -12,7 +12,7 @@ import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       <section className="footer-section grid-3">
         <div className="info-footer">
           <h3 className="secondary titles-footer your-car">

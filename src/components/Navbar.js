@@ -16,11 +16,11 @@ const Navbar = (props) => {
         <h2 className="logo">YourCar</h2>
       </div>
       <div className={`links ${isOpen ? "open" : ""}`}>
-        <button>Home</button>
-        <button>About</button>
-        <button>Services</button>
-        <button>Cars</button>
-        <button>Connact us</button>
+        <button><a href="#">Home</a></button>
+        <button><a href="#about">About</a></button>
+        <button><a href="#services">Services</a></button>
+        <button><a href="#cars">Cars</a></button>
+        <button><a href="#footer">Connact us</a></button>
         
       </div><button className="cart-icon" onClick={props.toggle}>
           <FontAwesomeIcon icon={faCartShopping} />

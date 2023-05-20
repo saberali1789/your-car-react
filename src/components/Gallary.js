@@ -3,7 +3,7 @@ import "./Gallary.css";
 
 const Gallary = () => {
   return (
-    <div>
+    <div id="gallary">
       <div className="gallary-section  ">
         <div className="text-gallary">
           <h3 className="tesla">Tesla Model 3</h3>

@@ -75,7 +75,7 @@ const Cars = ({ carsData }) => {
   };
 
   return (
-    <div>
+    <div id="cars">
       <Navbar toggle={toggleCartHandler} list={list.length} />
       <section className="cars-section">
         <div className="cars-titles">

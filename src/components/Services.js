@@ -6,7 +6,7 @@ import rental from "../components/icons/11.svg";
 
 const Services = () => {
   return (
-    <div>
+    <div id="services">
       <div className="section-services ">
         <div className="services-titles">
           <h1 className="blur services-blur">SERVICES</h1>
