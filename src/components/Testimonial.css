@@ -20,21 +20,20 @@
   font-family: "lora";
   letter-spacing: 3px;
   position: absolute;
-  top: 143px;
-    left: 669px;
+  top: 180px;
+  left: 669px;
 }
 
 .slider-cont {
   display: flex;
-width: 80%;
-height: 100vh;
-
+  width: 80%;
+  height: 100vh;
 }
-.slider-cont button{
+.slider-cont button {
   background-color: aqua;
   height: 2rem;
 }
-.slick-list{
+.slick-list {
   height: 20vh;
   display: flex;
 }
@@ -79,17 +78,15 @@ height: 100vh;
   font-style: italic;
   color: #979797;
 }
-.car{
+.car {
   width: 150px;
 }
 .car-test {
-    position: absolute;
-    bottom: 79px;
-    right: 203px;
-    width: 354px;
+  position: absolute;
+  bottom: 79px;
+  right: 203px;
+  width: 354px;
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .test-section {
@@ -146,11 +143,11 @@ height: 100vh;
   .test-section {
     height: auto;
     padding: 0rem 0;
-}
-.test-title {
-  font-size: 4.6rem;
-  top: 175px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  }
+  .test-title {
+    font-size: 4.6rem;
+    top: 175px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
