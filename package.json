@@ -1,7 +1,7 @@
 {
   "name": "your car",
   "version": "0.1.0",
-  "homepage": "https://github.com/saberali1789/your-car-app",
+  "homepage": "https://saberali1789.github.io/your-car-app",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^5.0.0"
   }
 }
